@@ -1,0 +1,45 @@
+body{
+     background-image: url(Img/thumbnail.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+/* Основные стили для бар-меню */
+.bar-menu {
+     background-color: #333; /* Цвет фона бар-меню */
+     padding: 10px 0; /* Внутренний отступ сверху и снизу */
+     border-radius: 10%; /* Делаем Округления */
+ }
+ 
+ .bar-menu ul {
+     text-align: center; /* Выравнивание элементов по центру */
+ }
+ 
+ .bar-menu ul li {
+     display: inline; /* Размещаем элементы горизонтально */
+     margin-right: 20px; /* Отступ между элементами */
+ }
+ 
+ .bar-menu ul li a {
+     color: #fff; /* Цвет текста ссылок */
+     text-decoration: none; /* Убираем подчеркивание ссылок */
+     padding: 5px 10px; /* Внутренний отступ внутри ссылок */
+     transition: all 0.3s ease; /* Плавное изменение свойств */
+ }
+ 
+ .bar-menu ul li a:hover {
+     background-color: #555; /* Цвет фона при наведении */
+     border-radius: 5px; /* Закругление углов при наведении */
+ }
+
+ /* Создаем Видео на начальной странице */
+
+ .VideoMain{
+     text-align: center;
+     transform: translateY(50px);
+ }
+
+ .ContactHavoc{
+     text-align: center;
+     transform: translateY(300px);
+ }
