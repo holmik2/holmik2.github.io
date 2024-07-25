@@ -1,8 +1,12 @@
-body{
-     background-image: url(Img/thumbnail.jpeg);
-     background-repeat: no-repeat;
-     background-size: cover;
+body {
+    background-image: url(Img/thumbnail.jpeg);
+    background-repeat: repeat-y;
+    background-size: 100% auto; /* Растягиваем изображение на всю ширину и высоту */
+    background-position: center;
+    height: 100vh; /* Высота равная 100% высоты видимой части окна браузера */
 }
+
+
 
 /* Основные стили для бар-меню */
 .bar-menu {
@@ -43,3 +47,47 @@ body{
      text-align: center;
      transform: translateY(300px);
  }
+
+ .Dev1{
+    text-align: center;
+    font-size: 40px;
+    transform: translateY(50px);
+    padding-top: -5%;
+    font-family: "Anton", sans-serif;
+    color: #fff;
+    -webkit-text-stroke-color: #333;
+    -webkit-text-stroke-width: 2px;
+}
+
+.Dev2{
+    text-align: center;
+    font-size: 40px;
+    transform: translateY(50px);
+    padding-top: -5%;
+    font-family: "Anton", sans-serif;
+    color: #fff;
+    -webkit-text-stroke-color: #333;
+    -webkit-text-stroke-width: 2px;
+}
+
+.Dev3{
+    text-align: center;
+    font-size: 40px;
+    transform: translateY(50px);
+    padding-top: -5%;
+    font-family: "Anton", sans-serif;
+    color: #fff;
+    -webkit-text-stroke-color: #333;
+    -webkit-text-stroke-width: 2px;
+}
+
+.Team{
+    text-align: center;
+    font-size: 40px;
+    padding-top: -100%;
+    transform: translateY(50px);
+    font-family: "Anton", sans-serif;
+    color: #fff;
+    -webkit-text-stroke-color: #333;
+    -webkit-text-stroke-width: 2px;
+}
